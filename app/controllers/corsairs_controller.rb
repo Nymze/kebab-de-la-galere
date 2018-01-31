@@ -37,6 +37,12 @@ def create
 		end
 	end
 
+	
+	def destroy
+		@corsair = Corsair.find(params[:id])
+		@corsair.destroy
+		redirect_to corsairs_path
+	end
 	#list les profile completés 
 
 def index
