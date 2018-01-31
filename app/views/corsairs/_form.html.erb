@@ -1,0 +1,28 @@
+</br>
+</br>
+
+<%= form_with model: @corsair, local: true do |form| %>
+
+ <p>
+   <%= form.label "What's your First name?" %><br>
+   <%= form.text_field :first_name %>
+ </p>
+</br>
+ <p>
+   <%= form.label "Moussaillon, quel âge avez-vous ?" %><br>
+   <%= form.number_field :age %>
+ </p>
+ 
+ 
+
+ <p> Choose your poison, Hummus ou kebab ? </p>
+
+	<%= form.radio_button :likeness, 'Kebab' %> Kebab, chef
+	<%= form.radio_button :likeness, 'Hummus' %> Hummus carottes
+
+ <p>
+   <%= form.submit "send" %>
+ </p>
+
+<% end %>
+
