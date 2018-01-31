@@ -1,24 +1,11 @@
-# README
+# Kebab de la galere
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bienvenue, tu peux trouver le lien heroku ici => https://serene-refuge-50262.herokuapp.com
 
-Things you may want to cover:
+Si t'es fan de Gossip fais un tour ici : 
 
-* Ruby version
+=> https://github.com/Nymze/gossip-project
 
-* System dependencies
+:)
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
